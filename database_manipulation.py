@@ -44,9 +44,9 @@ def create_html(df, filename):
     mathjaxtag1.append(r"MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});")
     soup.head.insert(1, mathjaxtag1)
 
-    csstag = soup.new_tag('style')
-    with open('table_style.css', 'r') as css_file:
-        csstag.string = css_file.read()
+    csstag = soup.new_tag('link')
+    csstag.attrs['rel'] = "stylesheet"
+    csstag.attrs['href'] = "/static/table_style.css"
     soup.head.append(csstag)
 
     titletag = soup.new_tag('title')
