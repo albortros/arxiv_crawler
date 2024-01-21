@@ -20,18 +20,21 @@ jobs:
       with:
         python-version: 3.x  # Choose the version you need
 
-    - name: Install Dependencies
+    - name: Install Dependencies and 
       run: |
         pip install -r requirements.txt  # If you have any dependencies
+
+    - name: switch to build branch
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git checkout -b build
 
     - name: Run Python Script
       run: python fetch_arxiv.py config.json  # Replace with the actual name of your Python script
 
     - name: Commit and Push Changes
       run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
-        git checkout -b build
         git add .
         git commit -m "Auto-generated HTML file"
         git push origin build
