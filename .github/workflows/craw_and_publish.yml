@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master  # Or the branch you want to trigger the workflow on
+  schedule:
+    - cron: '45 5 * * 1-5'
 
 jobs:
   build:
