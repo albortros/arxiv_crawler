@@ -25,7 +25,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git fetch
         git checkout build
-        git merge -X theirs master
+        git merge -X theirs master --allow-unrelated-histories
 
     - name: Set up Python
       uses: actions/setup-python@v2
