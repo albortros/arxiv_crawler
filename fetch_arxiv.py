@@ -96,8 +96,8 @@ def main():
     if debug_mode:
         print('pkl written: ', datetime.now())
 
-    dbmanip.create_html(updated_db, os.path.expanduser(configs['html_output']))
-    print('Done writing HTML: ', datetime.now())
+    dbmanip.create_html(updated_db, configs['html_output'])
+    print(f"Done writing {configs['html_output']}: ", datetime.now())
 
 
 if __name__ == '__main__':
