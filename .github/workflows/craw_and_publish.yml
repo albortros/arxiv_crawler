@@ -19,6 +19,14 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
+    - name: switch to build branch
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git fetch
+        git checkout build
+        git rebase master
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -27,13 +35,6 @@ jobs:
     - name: Install Dependencies 
       run: |
         pip install -r requirements.txt  # If you have any dependencies
-
-    - name: switch to build branch
-      run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
-        git checkout build
-        git rebase master
 
     - name: Run Python Script
       run: |
