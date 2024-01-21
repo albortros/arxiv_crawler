@@ -31,10 +31,15 @@ jobs:
         git checkout -b build
 
     - name: Run Python Script
-      run: python fetch_arxiv.py config.json  # Replace with the actual name of your Python script
+      run: |
+        python fetch_arxiv.py config.json  # Replace with the actual name of your Python script
+        ls
+        git status
 
     - name: Commit and Push Changes
       run: |
         git add -A
+        echo added
         git commit -m "Auto-generated HTML file"
+        echo commited
         git push origin build
