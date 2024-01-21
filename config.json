@@ -1,5 +1,5 @@
 {
     "query_input": "./search_query_list.txt",
     "db_output": "./dummydatabase.pkl",
-    "html_output": "~/Downloads/arxiv_crawler.html"   
+    "html_output": "~/arxiv_crawler.html"   
 }
