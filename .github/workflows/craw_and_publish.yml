@@ -1,6 +1,9 @@
 name: Python Publish Workflow
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '45 5 * * 1-5'
 
