@@ -1,7 +1,6 @@
 crawler-env/
 
 *.pkl
-*.html
 .vscode/
 .idea/
 
