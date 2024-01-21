@@ -25,7 +25,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git fetch
         git checkout build
-        git rebase master
+        git rebase -X theirs master
 
     - name: Set up Python
       uses: actions/setup-python@v2
