@@ -28,7 +28,6 @@ jobs:
       run: |
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Actions"
-        git checkout -b build
 
     - name: Run Python Script
       run: python fetch_arxiv.py config.json  # Replace with the actual name of your Python script
@@ -37,4 +36,4 @@ jobs:
       run: |
         git add .
         git commit -m "Auto-generated HTML file"
-        git push origin build
+        git push origin master
