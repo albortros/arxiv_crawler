@@ -32,7 +32,7 @@ def query_arxiv_org(query_input):
 
     # Construct elements of the query string sent to arxiv.org:
     # Base api query url
-    base_url = 'http://export.arxiv.org/api/query?'
+    base_url = 'https://export.arxiv.org/api/query?'
     # each search item
     with open(query_input) as file:
         search_keywords = file.readlines()
