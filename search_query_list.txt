@@ -41,6 +41,8 @@ au:y+oreg+AND+cat:cond-mat.mes-hall
 au:c+palmstrom+AND+cat:cond-mat.mes-hall
 au:j+pekola+AND+cat:cond-mat.mes-hall
 au:f+giazotto+AND+cat:cond-mat.mes-hall
+au:r+citro+AND+cat:cond-mat.mes-hall
+au:a+maiellaro+AND+cat:cond-mat.mes-hall
 au:d+pikulin+AND+cat:cond-mat.mes-hall
 au:a+antipov+AND+cat:cond-mat.mes-hall
 au:l+bretheau+AND+cat:cond-mat.mes-hall
