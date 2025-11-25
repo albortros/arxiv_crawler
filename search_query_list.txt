@@ -1,1 +1,2 @@
-all:majorana+AND+cat:cond-mat
+all:majorana+AND+cat:cond-mat.mes-hall
+all:majorana+AND+cat:cond-mat.supr-con
