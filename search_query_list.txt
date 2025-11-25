@@ -1,3 +1,3 @@
 all:majorana+AND+cat:cond-mat.mes-hall
 all:majorana+AND+cat:cond-mat.supr-con
-au:seoane+souto+AND+cat:cond-mat.mes-hall
+au:seoane+AND+cat:cond-mat.mes-hall
