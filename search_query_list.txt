@@ -17,7 +17,7 @@ au:fatemi+AND+cat:cond-mat.mes-hall
 au:fatemi+AND+cat:cond-mat.supr-con
 au:flensberg+AND+cat:cond-mat.mes-hall
 au:nayak+AND+cat:cond-mat.mes-hall
-au:goswami+AND+cat:cond-mat.mes-hall
+au:srijit+AND+au:goswami+AND+cat:cond-mat.mes-hall
 au:groeblacher+AND+cat:cond-mat.mes-hall
 au:heiblum+AND+cat:cond-mat.mes-hall
 au:ihn+AND+cat:cond-mat.mes-hall
@@ -61,5 +61,4 @@ au:lukin+AND+cat:cond-mat.quant-gas
 au:lukin+AND+cat:quant-ph
 au:vaitiekenas+AND+cat:cond-mat.mes-hall
 au:vaitiekenas+AND+cat:cond-mat.supr-con
-au:seoane+AND+cat:cond-mat.mes-hall
-au:katsaros+AND+cat:cond-mat.mes-hall
+au:seoane+AND+au:souto+AND+cat:cond-mat.mes-hall
