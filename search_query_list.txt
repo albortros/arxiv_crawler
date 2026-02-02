@@ -14,12 +14,11 @@ au:fatemi+AND+cat:cond-mat.supr-con
 au:flensberg+AND+cat:cond-mat.mes-hall
 au:chetan+AND+au:nayak+AND+cat:cond-mat.mes-hall
 au:srijit+AND+au:goswami+AND+cat:cond-mat.mes-hall
-au:jarillo-herrero+AND+cat:cond-mat.mes-hall
-au:jarillo-herrero+AND+cat:cond-mat.supr-con
+au:jarillo+AND+cat:cond-mat.mes-hall
+au:jarillo+AND+cat:cond-mat.supr-con
 au:krogstrup+AND+cat:cond-mat.mes-hall
 au:lutchyn+AND+cat:cond-mat.mes-hall
 au:manfra+AND+cat:cond-mat.mes-hall
-au:molenkamp+AND+cat:cond-mat.mes-hall
 au:nichele+AND+cat:cond-mat.mes-hall
 au:nichele+AND+cat:cond-mat.supr-con
 au:von+AND+au:oppen+AND+cat:cond-mat.mes-hall
@@ -39,10 +38,8 @@ au:csonka+AND+cat:cond-mat.supr-con
 au:vaitiekenas+AND+cat:cond-mat.mes-hall
 au:vaitiekenas+AND+cat:cond-mat.supr-con
 au:seoane+AND+au:souto+AND+cat:cond-mat.mes-hall
-
 au:devoret+AND+cat:cond-mat.mes-hall
 au:wallraff+AND+cat:cond-mat.mes-hall
-
 au:vandersypen+AND+cat:cond-mat.mes-hall
 au:vandersypen+AND+cat:quant-ph
 au:weldhorst+AND+cat:cond-mat.mes-hall
