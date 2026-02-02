@@ -45,7 +45,7 @@ au:scarlino+AND+cat:cond-mat.mes-hall
 au:scarlino+AND+cat:cond-mat.supr-con
 au:vandersypen+AND+cat:cond-mat.mes-hall
 au:vandersypen+AND+cat:quant-ph
-au:weldhorst+AND+cat:cond-mat.mes-hall
+au:veldhorst+AND+cat:cond-mat.mes-hall
 au:katsaros+AND+cat:cond-mat.mes-hall
 au:tarucha+AND+cat:cond-mat.mes-hall
 au:tarucha+AND+cat:quant-ph
