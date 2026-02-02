@@ -1,5 +1,5 @@
-all:majorana+AND+cat:cond-mat.mes-hall
-all:majorana+AND+cat:cond-mat.supr-con
+ti:majorana+AND+cat:cond-mat.mes-hall
+ti:majorana+AND+cat:cond-mat.supr-con
 ti:insb+AND+cat:cond-mat.mes-hall
 ti:inas+AND+cat:cond-mat.mes-hall
 ti:nanowire+AND+cat:cond-mat.mes-hall
