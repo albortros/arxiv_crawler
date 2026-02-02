@@ -41,6 +41,8 @@ au:seoane+AND+au:souto+AND+cat:cond-mat.mes-hall
 au:chun+AND+au:xiao+AND+au:liu+AND+cat:cond-mat.mes-hall
 au:devoret+AND+cat:cond-mat.mes-hall
 au:wallraff+AND+cat:cond-mat.mes-hall
+au:scarlino+AND+cat:cond-mat.mes-hall
+au:scarlino+AND+cat:cond-mat.supr-con
 au:vandersypen+AND+cat:cond-mat.mes-hall
 au:vandersypen+AND+cat:quant-ph
 au:weldhorst+AND+cat:cond-mat.mes-hall
