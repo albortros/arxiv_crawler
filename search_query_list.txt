@@ -50,7 +50,7 @@ au:veldhorst+AND+cat:cond-mat.mes-hall
 au:veldhorst+AND+cat:quant-ph
 au:scappucci+AND+cat:cond-mat.mes-hall
 au:scappucci+AND+cat:quant-ph
-au:katsaros+AND+cat:cond-mat.mes-hall
+all:katsaros+AND+cat:cond-mat.mes-hall
 au:katsaros+AND+cat:quant-ph
 au:tarucha+AND+cat:cond-mat.mes-hall
 au:tarucha+AND+cat:quant-ph
